@@ -1,0 +1,24 @@
+<div class = "container" style = "width: 800px;">
+
+    <div class = "row gy-5">
+                    
+        {{#each cards}}
+        <div class = "col-sm">
+
+            <div class="card" style="width: 200px;">
+
+                <div class="card-body">
+                    <h5 class="card-title">{{name}}</h5>
+                    <p class="card-text">{{text}}</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style = "background-color: #29b6f6;">Описание</button>
+
+                </div>
+
+            </div>
+
+        </div>
+        {{/each}}
+
+    </div>
+
+</div>
